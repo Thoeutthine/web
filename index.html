@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAMBO - Creative Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+      <button id="lang-en" class="lang-btn active">EN</button>
+      <button id="lang-km" class="lang-btn">ខ្មែរ</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <h1 class="logo-text">CAMBO</h1>
+          </div>
+          <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+              <a href="#home" class="nav-link" data-en="Home" data-km="ទំព័រដើម"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#about"
+                class="nav-link"
+                data-en="About"
+                data-km="អំពីខ្ញុំ"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#skills"
+                class="nav-link"
+                data-en="Skills"
+                data-km="ជំនាញ"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#projects"
+                class="nav-link"
+                data-en="Projects"
+                data-km="គម្រោង"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link" data-en="Blog" data-km="ប្លុក"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contact"
+                class="nav-link"
+                data-en="Contact"
+                data-km="ទំនាក់ទំនង"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">
+                <span
+                  class="title-line"
+                  data-en="Welcome to"
+                  data-km="សូមស្វាគមន៍មកកាន់"
+                  >Welcome to</span
+                >
+                <span class="title-main">CAMBO</span>
+                <span
+                  class="title-subtitle"
+                  data-en="Creative Tech Portfolio"
+                  data-km="ផតហ្វូលីយ៉ូបច្ចេកវិទ្យាច្នៃប្រឌិត"
+                  >Creative Tech Portfolio</span
+                >
+              </h1>
+              <p
+                class="hero-description"
+                data-en="Exploring the intersection of technology, creativity, and Khmer culture through innovative web development and design."
+                data-km="ស្វែងរកចំណុចប្រសព្វនៃបច្ចេកវិទ្យា ភាពច្នៃប្រឌិត និងវប្បធម៌ខ្មែរតាមរយៈការអភិវឌ្ឍន៍គេហទំព័រនិងការរចនាប្រកបដោយភាពច្នៃប្រឌិត។"
+              >
+                Exploring the intersection of technology, creativity, and Khmer
+                culture through innovative web development and design.
+              </p>
+              <div class="hero-buttons">
+                <button
+                  class="btn btn-primary"
+                  id="explore-skills"
+                  data-en="Explore My Skills"
+                  data-km="ស្វែងយល់ជំនាញរបស់ខ្ញុំ"
+                >
+                  <i class="fas fa-rocket"></i>
+                  Explore My Skills
+                </button>
+                <button
+                  class="btn btn-secondary"
+                  id="view-resume"
+                  data-en="View Resume"
+                  data-km="មើលប្រវត្តិរូប"
+                >
+                  <i class="fas fa-download"></i>
+                  View Resume
+                </button>
+              </div>
+            </div>
+            <div class="hero-visual">
+              <div class="floating-elements">
+                <div class="floating-icon" data-delay="0">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="floating-icon" data-delay="0.5">
+                  <i class="fab fa-python"></i>
+                </div>
+                <div class="floating-icon" data-delay="1">
+                  <i class="fab fa-js-square"></i>
+                </div>
+                <div class="floating-icon" data-delay="1.5">
+                  <i class="fab fa-css3-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 class="section-title" data-en="About Me" data-km="អំពីខ្ញុំ">
+            About Me
+          </h2>
+          <div class="about-content">
+            <div class="about-grid">
+              <!-- Personal Introduction -->
+              <div class="about-intro">
+                <div class="about-text">
+                  <h3
+                    class="intro-title"
+                    data-en="Hello, I'm CAMBO!"
+                    data-km="សួស្តី ខ្ញុំឈ្មោះ CAMBO!"
+                  >
+                    Hello, I'm CAMBO!
+                  </h3>
+                  <p
+                    class="intro-description"
+                    data-en="A passionate creative developer on a mission to bridge technology and Khmer culture. I believe in the power of code to connect communities, preserve heritage, and create meaningful digital experiences."
+                    data-km="អ្នកអភិវឌ្ឍន៍ច្នៃប្រឌិតដែលមានចំណង់ចំណូលចិត្តក្នុងបេសកកម្មភ្ជាប់បច្ចេកវិទ្យា និងវប្បធម៌ខ្មែរ។ ខ្ញុំជឿជាក់លើអំណាចនៃកូដក្នុងការភ្ជាប់សហគមន៍ រក្សាបេតិកភណ្ឌ និងបង្កើតបទពិសោធន៍ឌីជីថលដ៏មានន័យ។"
+                  >
+                    A passionate creative developer on a mission to bridge
+                    technology and Khmer culture. I believe in the power of code
+                    to connect communities, preserve heritage, and create
+                    meaningful digital experiences.
+                  </p>
+                  <div class="intro-highlights">
+                    <div
+                      class="highlight-item"
+                      onclick="showHighlightDetails(0)"
+                    >
+                      <div class="highlight-icon">
+                        <i class="fas fa-code"></i>
+                      </div>
+                      <div class="highlight-content">
+                        <h4
+                          data-en="Frontend Specialist"
+                          data-km="អ្នកជំនាញ Frontend"
+                        >
+                          Frontend Specialist
+                        </h4>
+                        <p
+                          data-en="React.js, CSS3, JavaScript"
+                          data-km="React.js, CSS3, JavaScript"
+                        >
+                          React.js, CSS3, JavaScript
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="highlight-item"
+                      onclick="showHighlightDetails(1)"
+                    >
+                      <div class="highlight-icon">
+                        <i class="fas fa-globe-asia"></i>
+                      </div>
+                      <div class="highlight-content">
+                        <h4
+                          data-en="Cultural Tech Advocate"
+                          data-km="អ្នកតស៊ូមតិបច្ចេកវិទ្យាវប្បធម៌"
+                        >
+                          Cultural Tech Advocate
+                        </h4>
+                        <p
+                          data-en="Bridging traditions & innovation"
+                          data-km="ភ្ជាប់ប្រពៃណី និងនវានុវត្តន៍"
+                        >
+                          Bridging traditions & innovation
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="highlight-item"
+                      onclick="showHighlightDetails(2)"
+                    >
+                      <div class="highlight-icon">
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <div class="highlight-content">
+                        <h4
+                          data-en="Community Builder"
+                          data-km="អ្នកបង្កើតសហគមន៍"
+                        >
+                          Community Builder
+                        </h4>
+                        <p
+                          data-en="Connecting people through code"
+                          data-km="ភ្ជាប់មនុស្សតាមរយៈកូដ"
+                        >
+                          Connecting people through code
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Stats -->
+              <div class="about-stats">
+                <div class="stats-container">
+                  <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-icon">
+                      <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="stat-number" data-number="2">2+</div>
+                    <div
+                      class="stat-label"
+                      data-en="Years Learning"
+                      data-km="ឆ្នាំនៃការរៀន"
+                    >
+                      Years Learning
+                    </div>
+                  </div>
+                  <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-icon">
+                      <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="stat-number" data-number="15">15+</div>
+                    <div
+                      class="stat-label"
+                      data-en="Projects Built"
+                      data-km="គម្រោងដែលបានបង្កើត"
+                    >
+                      Projects Built
+                    </div>
+                  </div>
+                  <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-icon">
+                      <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="stat-number" data-number="8">8+</div>
+                    <div
+                      class="stat-label"
+                      data-en="Technologies"
+                      data-km="បច្ចេកវិទ្យា"
+                    >
+                      Technologies
+                    </div>
+                  </div>
+                  <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-icon">
+                      <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="stat-number" data-number="500">500+</div>
+                    <div
+                      class="stat-label"
+                      data-en="Cups of Coffee"
+                      data-km="ពែងកាហ្វេ"
+                    >
+                      Cups of Coffee
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive Journey Map -->
+            <div class="journey-section">
+              <h3
+                class="journey-title"
+                data-en="My Development Journey"
+                data-km="ដំណើរអភិវឌ្ឍន៍របស់ខ្ញុំ"
+              >
+                My Development Journey
+              </h3>
+              <div class="journey-map">
+                <div
+                  class="journey-step active"
+                  data-step="0"
+                  onclick="showJourneyStep(0)"
+                >
+                  <div class="step-marker">
+                    <i class="fas fa-play"></i>
+                  </div>
+                  <div class="step-content">
+                    <h4 data-en="The Beginning" data-km="ការចាប់ផ្តើម">
+                      The Beginning
+                    </h4>
+                    <p
+                      data-en="2022 - First line of code"
+                      data-km="២០២២ - បន្ទាត់កូដដំបូង"
+                    >
+                      2022 - First line of code
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="journey-step"
+                  data-step="1"
+                  onclick="showJourneyStep(1)"
+                >
+                  <div class="step-marker">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="step-content">
+                    <h4 data-en="Frontend Focus" data-km="ផ្តោតលើ Frontend">
+                      Frontend Focus
+                    </h4>
+                    <p
+                      data-en="2023 - HTML, CSS, JavaScript"
+                      data-km="២០២៣ - HTML, CSS, JavaScript"
+                    >
+                      2023 - HTML, CSS, JavaScript
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="journey-step"
+                  data-step="2"
+                  onclick="showJourneyStep(2)"
+                >
+                  <div class="step-marker">
+                    <i class="fab fa-react"></i>
+                  </div>
+                  <div class="step-content">
+                    <h4 data-en="React Mastery" data-km="ការស្វែងយល់ React">
+                      React Mastery
+                    </h4>
+                    <p
+                      data-en="2023 - Component-based development"
+                      data-km="២០២៣ - ការអភិវឌ្ឍន៍ផ្អែកលើសមាសធាតុ"
+                    >
+                      2023 - Component-based development
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="journey-step"
+                  data-step="3"
+                  onclick="showJourneyStep(3)"
+                >
+                  <div class="step-marker">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="step-content">
+                    <h4
+                      data-en="Cultural Integration"
+                      data-km="ការរួមបញ្ចូលវប្បធម៌"
+                    >
+                      Cultural Integration
+                    </h4>
+                    <p
+                      data-en="2024 - Bridging tech & culture"
+                      data-km="២០២៤ - ភ្ជាប់បច្ចេកវិទ្យា និងវប្បធម៌"
+                    >
+                      2024 - Bridging tech & culture
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="journey-step future"
+                  data-step="4"
+                  onclick="showJourneyStep(4)"
+                >
+                  <div class="step-marker">
+                    <i class="fas fa-rocket"></i>
+                  </div>
+                  <div class="step-content">
+                    <h4 data-en="Future Goals" data-km="គោលដៅអនាគត">
+                      Future Goals
+                    </h4>
+                    <p
+                      data-en="2024+ - Full-stack & beyond"
+                      data-km="២០២៤+ - Full-stack និងលើសពីនេះ"
+                    >
+                      2024+ - Full-stack & beyond
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="journey-details" id="journey-details">
+                <div class="journey-detail active" data-detail="0">
+                  <h4
+                    data-en="The Spark of Curiosity"
+                    data-km="ការបញ្ឆេះនៃការចង់ដឹងចង់ឃើញ"
+                  >
+                    The Spark of Curiosity
+                  </h4>
+                  <p
+                    data-en="It all started with a simple question: 'How do websites work?' This curiosity led me to write my first HTML page and discover the magic of creating something from nothing but code."
+                    data-km="វាចាប់ផ្តើមដោយសំណួរសាមញ្ញមួយ៖ 'តើគេហទំព័រដំណើរការយ៉ាងដូចម្តេច?' ការចង់ដឹងចង់ឃើញនេះនាំខ្ញុំឱ្យសរសេរទំព័រ HTML ដំបូងរបស់ខ្ញុំ និងរកឃើញភាពអស្ចារ្យនៃការបង្កើតអ្វីមួយពីគ្មានអ្វីក្រៅពីកូដ។"
+                  >
+                    It all started with a simple question: "How do websites
+                    work?" This curiosity led me to write my first HTML page and
+                    discover the magic of creating something from nothing but
+                    code.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Personal Interests & Hobbies -->
+            <div class="interests-section">
+              <h3
+                class="interests-title"
+                data-en="Beyond Coding"
+                data-km="លើសពីការសរសេរកូដ"
+              >
+                Beyond Coding
+              </h3>
+              <div class="interests-grid">
+                <div class="interest-card" onclick="showInterestDetails(0)">
+                  <div class="interest-icon">
+                    <i class="fas fa-camera"></i>
+                  </div>
+                  <h4 data-en="Photography" data-km="ការថតរូប">Photography</h4>
+                  <p
+                    data-en="Capturing Cambodia's beauty"
+                    data-km="ចាប់យកភាពស្រស់ស្អាតកម្ពុជា"
+                  >
+                    Capturing Cambodia's beauty
+                  </p>
+                </div>
+                <div class="interest-card" onclick="showInterestDetails(1)">
+                  <div class="interest-icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <h4 data-en="Learning Languages" data-km="ការរៀនភាសា">
+                    Learning Languages
+                  </h4>
+                  <p
+                    data-en="English, Khmer, and code!"
+                    data-km="អង់គ្លេស ខ្មែរ និងកូដ!"
+                  >
+                    English, Khmer, and code!
+                  </p>
+                </div>
+                <div class="interest-card" onclick="showInterestDetails(2)">
+                  <div class="interest-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <h4 data-en="Community Events" data-km="ព្រឹត្តិការណ៍សហគមន៍">
+                    Community Events
+                  </h4>
+                  <p
+                    data-en="Tech meetups & cultural festivals"
+                    data-km="ការជួបជុំបច្ចេកវិទ្យា និងពិធីបុណ្យវប្បធម៌"
+                  >
+                    Tech meetups & cultural festivals
+                  </p>
+                </div>
+                <div class="interest-card" onclick="showInterestDetails(3)">
+                  <div class="interest-icon">
+                    <i class="fas fa-gamepad"></i>
+                  </div>
+                  <h4 data-en="Gaming" data-km="ការលេងហ្គេម">Gaming</h4>
+                  <p
+                    data-en="Strategy games & puzzle solving"
+                    data-km="ហ្គេមយុទ្ធសាស្ត្រ និងការដោះស្រាយបញ្ហា"
+                  >
+                    Strategy games & puzzle solving
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Radar Chart -->
+            <div class="skills-radar-section">
+              <h3
+                class="radar-title"
+                data-en="Skills Overview"
+                data-km="ទិដ្ឋភាពជំនាញ"
+              >
+                Skills Overview
+              </h3>
+              <div class="radar-container">
+                <div class="radar-chart" id="skills-radar">
+                  <div class="radar-grid">
+                    <div class="radar-circle" style="--size: 20%"></div>
+                    <div class="radar-circle" style="--size: 40%"></div>
+                    <div class="radar-circle" style="--size: 60%"></div>
+                    <div class="radar-circle" style="--size: 80%"></div>
+                    <div class="radar-circle" style="--size: 100%"></div>
+                  </div>
+                  <div class="radar-axes">
+                    <div class="radar-axis" style="--angle: 0deg"></div>
+                    <div class="radar-axis" style="--angle: 60deg"></div>
+                    <div class="radar-axis" style="--angle: 120deg"></div>
+                    <div class="radar-axis" style="--angle: 180deg"></div>
+                    <div class="radar-axis" style="--angle: 240deg"></div>
+                    <div class="radar-axis" style="--angle: 300deg"></div>
+                  </div>
+                  <div class="radar-labels">
+                    <div
+                      class="radar-label"
+                      style="--angle: 0deg; --distance: 110%"
+                    >
+                      <span data-en="Frontend" data-km="Frontend"
+                        >Frontend</span
+                      >
+                    </div>
+                    <div
+                      class="radar-label"
+                      style="--angle: 60deg; --distance: 110%"
+                    >
+                      <span data-en="Design" data-km="ការរចនា">Design</span>
+                    </div>
+                    <div
+                      class="radar-label"
+                      style="--angle: 120deg; --distance: 110%"
+                    >
+                      <span data-en="Problem Solving" data-km="ការដោះស្រាយបញ្ហា"
+                        >Problem Solving</span
+                      >
+                    </div>
+                    <div
+                      class="radar-label"
+                      style="--angle: 180deg; --distance: 110%"
+                    >
+                      <span data-en="Communication" data-km="ការទំនាក់ទំនង"
+                        >Communication</span
+                      >
+                    </div>
+                    <div
+                      class="radar-label"
+                      style="--angle: 240deg; --distance: 110%"
+                    >
+                      <span data-en="Learning" data-km="ការរៀន">Learning</span>
+                    </div>
+                    <div
+                      class="radar-label"
+                      style="--angle: 300deg; --distance: 110%"
+                    >
+                      <span data-en="Creativity" data-km="ភាពច្នៃប្រឌិត"
+                        >Creativity</span
+                      >
+                    </div>
+                  </div>
+                  <div class="radar-data" id="radar-data">
+                    <!-- Data points will be added by JavaScript -->
+                  </div>
+                </div>
+                <div class="radar-controls">
+                  <button
+                    class="radar-btn"
+                    onclick="animateRadar()"
+                    data-en="Animate Skills"
+                    data-km="បង្ហាញជំនាញ"
+                  >
+                    <i class="fas fa-play"></i> Animate Skills
+                  </button>
+                  <button
+                    class="radar-btn"
+                    onclick="resetRadar()"
+                    data-en="Reset"
+                    data-km="កំណត់ឡើងវិញ"
+                  >
+                    <i class="fas fa-redo"></i> Reset
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fun Facts Carousel -->
+            <div class="fun-facts-section">
+              <h3
+                class="facts-title"
+                data-en="Fun Facts About Me"
+                data-km="ការពិតដ៏គួរឱ្យចាប់អារម្មណ៍អំពីខ្ញុំ"
+              >
+                Fun Facts About Me
+              </h3>
+              <div class="facts-carousel" id="facts-carousel">
+                <div class="fact-card active" data-fact="0">
+                  <div class="fact-icon">
+                    <i class="fas fa-coffee"></i>
+                  </div>
+                  <div class="fact-content">
+                    <h4
+                      data-en="Coffee Enthusiast"
+                      data-km="អ្នកចូលចិត្តកាហ្វេ"
+                    >
+                      Coffee Enthusiast
+                    </h4>
+                    <p
+                      data-en="I can debug code better with a good cup of Cambodian coffee!"
+                      data-km="ខ្ញុំអាចកែកំហុសកូដបានប្រសើរជាងជាមួយកាហ្វេកម្ពុជាដ៏ឆ្ងាញ់!"
+                    >
+                      I can debug code better with a good cup of Cambodian
+                      coffee!
+                    </p>
+                  </div>
+                </div>
+                <div class="fact-card" data-fact="1">
+                  <div class="fact-icon">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div class="fact-content">
+                    <h4 data-en="Night Owl Coder" data-km="អ្នកសរសេរកូដពេលយប់">
+                      Night Owl Coder
+                    </h4>
+                    <p
+                      data-en="My most productive coding hours are between 10 PM and 2 AM!"
+                      data-km="ម៉ោងសរសេរកូដដែលមានប្រសិទ្ធភាពបំផុតរបស់ខ្ញុំគឺចន្លោះម៉ោង ១០ យប់ដល់ ២ ព្រឹក!"
+                    >
+                      My most productive coding hours are between 10 PM and 2
+                      AM!
+                    </p>
+                  </div>
+                </div>
+                <div class="fact-card" data-fact="2">
+                  <div class="fact-icon">
+                    <i class="fas fa-bug"></i>
+                  </div>
+                  <div class="fact-content">
+                    <h4 data-en="Bug Hunter" data-km="អ្នកស្វែងរកកំហុស">
+                      Bug Hunter
+                    </h4>
+                    <p
+                      data-en="I once spent 6 hours debugging only to find a missing semicolon!"
+                      data-km="ខ្ញុំធ្លាប់ចំណាយពេល ៦ ម៉ោងកែកំហុស ដើម្បីរកឃើញថាខ្វះសញ្ញា semicolon!"
+                    >
+                      I once spent 6 hours debugging only to find a missing
+                      semicolon!
+                    </p>
+                  </div>
+                </div>
+                <div class="fact-card" data-fact="3">
+                  <div class="fact-icon">
+                    <i class="fas fa-language"></i>
+                  </div>
+                  <div class="fact-content">
+                    <h4 data-en="Language Lover" data-km="អ្នកស្រលាញ់ភាសា">
+                      Language Lover
+                    </h4>
+                    <p
+                      data-en="I dream in code and think in both English and Khmer!"
+                      data-km="ខ្ញុំសុបិនជាកូដ និងគិតជាភាសាអង់គ្លេស និងខ្មែរ!"
+                    >
+                      I dream in code and think in both English and Khmer!
+                    </p>
+                  </div>
+                </div>
+                <div class="fact-card" data-fact="4">
+                  <div class="fact-icon">
+                    <i class="fas fa-heart"></i>
+                  </div>
+                  <div class="fact-content">
+                    <h4 data-en="Family First" data-km="គ្រួសារជាអាទិភាព">
+                      Family First
+                    </h4>
+                    <p
+                      data-en="Every project I build, I imagine how it could help my community!"
+                      data-km="គម្រោងគ្រប់យ៉ាងដែលខ្ញុំបង្កើត ខ្ញុំស្រមៃថាតើវាអាចជួយសហគមន៍របស់ខ្ញុំយ៉ាងដូចម្តេច!"
+                    >
+                      Every project I build, I imagine how it could help my
+                      community!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="facts-navigation">
+                <button class="fact-nav-btn" onclick="previousFact()">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="fact-indicators" id="fact-indicators">
+                  <span class="indicator active" onclick="showFact(0)"></span>
+                  <span class="indicator" onclick="showFact(1)"></span>
+                  <span class="indicator" onclick="showFact(2)"></span>
+                  <span class="indicator" onclick="showFact(3)"></span>
+                  <span class="indicator" onclick="showFact(4)"></span>
+                </div>
+                <button class="fact-nav-btn" onclick="nextFact()">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Interactive Quote Generator -->
+            <div class="quote-section">
+              <h3
+                class="quote-title"
+                data-en="Words That Inspire Me"
+                data-km="ពាក្យដែលបំផុសគំនិតខ្ញុំ"
+              >
+                Words That Inspire Me
+              </h3>
+              <div class="quote-container" id="quote-container">
+                <div class="quote-content">
+                  <blockquote id="current-quote">
+                    <p
+                      data-en="The best way to predict the future is to create it."
+                      data-km="វិធីល្អបំផុតដើម្បីទស្សន៍ទាយអនាគតគឺការបង្កើតវា។"
+                    >
+                      "The best way to predict the future is to create it."
+                    </p>
+                    <cite id="quote-author">- Peter Drucker</cite>
+                  </blockquote>
+                  <div class="quote-controls">
+                    <button
+                      class="quote-btn"
+                      onclick="generateNewQuote()"
+                      data-en="New Quote"
+                      data-km="សម្រង់ថ្មី"
+                    >
+                      <i class="fas fa-quote-right"></i> New Quote
+                    </button>
+                    <button
+                      class="quote-btn"
+                      onclick="shareQuote()"
+                      data-en="Share"
+                      data-km="ចែករំលែក"
+                    >
+                      <i class="fas fa-share"></i> Share
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="about-cta">
+              <div class="cta-content">
+                <h3
+                  data-en="Let's Build Something Amazing Together"
+                  data-km="តោះបង្កើតអ្វីដ៏អស្ចារ្យជាមួយគ្នា"
+                >
+                  Let's Build Something Amazing Together
+                </h3>
+                <p
+                  data-en="I'm always excited to collaborate on projects that make a difference. Whether it's building user-friendly interfaces or creating culturally-aware applications, let's connect!"
+                  data-km="ខ្ញុំតែងតែរំភើបចិត្តក្នុងការសហការលើគម្រោងដែលធ្វើឱ្យមានការផ្លាស់ប្តូរ។ មិនថាវាជាការបង្កើតចំណុចប្រទាក់ងាយស្រួលប្រើ ឬការបង្កើតកម្មវិធីដែលដឹងអំពីវប្បធម៌ តោះភ្ជាប់ទំនាក់ទំនង!"
+                >
+                  I'm always excited to collaborate on projects that make a
+                  difference. Whether it's building user-friendly interfaces or
+                  creating culturally-aware applications, let's connect!
+                </p>
+                <div class="cta-buttons">
+                  <button
+                    class="btn btn-primary"
+                    onclick="scrollToSection('contact')"
+                    data-en="Get In Touch"
+                    data-km="ទាក់ទងមកខ្ញុំ"
+                  >
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                  </button>
+                  <button
+                    class="btn btn-outline"
+                    onclick="scrollToSection('projects')"
+                    data-en="View My Work"
+                    data-km="មើលការងាររបស់ខ្ញុំ"
+                  >
+                    <i class="fas fa-eye"></i>
+                    View My Work
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Chat Section -->
+      <section id="chat" class="chat-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Ask Me Anything"
+            data-km="សួរខ្ញុំអ្វីក៏បាន"
+          >
+            Ask Me Anything
+          </h2>
+          <div class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+              <div class="message bot-message">
+                <div class="message-avatar">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                  <p
+                    data-en="Hi! I'm CAMBO's AI assistant. Ask me about my tech journey, skills, or projects!"
+                    data-km="សួស្តី! ខ្ញុំជាជំនួយការ AI របស់ CAMBO។ សួរខ្ញុំអំពីដំណើរបច្ចេកវិទ្យា ជំនាញ ឬគម្រោងរបស់ខ្ញុំ!"
+                  >
+                    Hi! I'm CAMBO's AI assistant. Ask me about my tech journey,
+                    skills, or projects!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="chat-input-container">
+              <input
+                type="text"
+                id="chat-input"
+                class="chat-input"
+                placeholder="Type your question here..."
+                data-en-placeholder="Type your question here..."
+                data-km-placeholder="វាយសំណួររបស់អ្នកនៅទីនេះ..."
+              />
+              <button id="chat-send" class="chat-send-btn">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+            <div class="quick-questions">
+              <button
+                class="quick-question"
+                data-question="What technologies do you work with?"
+                data-en="What technologies do you work with?"
+                data-km="អ្នកធ្វើការជាមួយបច្ចេកវិទ្យាអ្វីខ្លះ?"
+              >
+                What technologies do you work with?
+              </button>
+              <button
+                class="quick-question"
+                data-question="Tell me about your learning journey"
+                data-en="Tell me about your learning journey"
+                data-km="ប្រាប់ខ្ញុំអំពីដំណើរសិក្សារបស់អ្នក"
+              >
+                Tell me about your learning journey
+              </button>
+              <button
+                class="quick-question"
+                data-question="What are your future goals?"
+                data-en="What are your future goals?"
+                data-km="តើគោលដៅអនាគតរបស់អ្នកជាអ្វី?"
+              >
+                What are your future goals?
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Toolbox Showcase -->
+      <section id="toolbox" class="toolbox-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="My Toolbox"
+            data-km="ប្រអប់ឧបករណ៍របស់ខ្ញុំ"
+          >
+            My Toolbox
+          </h2>
+          <div class="toolbox-carousel">
+            <div class="carousel-container">
+              <div class="carousel-track" id="toolbox-track">
+                <!-- Tools will be dynamically loaded -->
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn prev" id="toolbox-prev">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="carousel-btn next" id="toolbox-next">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Path -->
+      <section id="education" class="education-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Learning Journey"
+            data-km="ដំណើរសិក្សា"
+          >
+            Learning Journey
+          </h2>
+          <div class="education-timeline" id="education-timeline">
+            <!-- Timeline items will be dynamically loaded -->
+          </div>
+          <div class="timeline-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-number="15">15</div>
+              <div
+                class="stat-label"
+                data-en="Skills Learned"
+                data-km="ជំនាញដែលបានរៀន"
+              >
+                Skills Learned
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-number="8">8</div>
+              <div
+                class="stat-label"
+                data-en="Projects Completed"
+                data-km="គម្រោងដែលបានបញ្ចប់"
+              >
+                Projects Completed
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-number="500">500+</div>
+              <div
+                class="stat-label"
+                data-en="Hours of Learning"
+                data-km="ម៉ោងនៃការរៀន"
+              >
+                Hours of Learning
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-number="3">3</div>
+              <div
+                class="stat-label"
+                data-en="Certifications"
+                data-km="វិញ្ញាបនបត្រ"
+              >
+                Certifications
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Philosophy & Goals -->
+      <section id="philosophy" class="philosophy-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Philosophy & Goals"
+            data-km="ទស្សនវិជ្ជា និងគោលដៅ"
+          >
+            Philosophy & Goals
+          </h2>
+          <div class="philosophy-content">
+            <div class="philosophy-grid">
+              <div class="philosophy-card mindset-card">
+                <div class="card-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <h3 data-en="Growth Mindset" data-km="ចិត្តគំនិតលូតលាស់">
+                  Growth Mindset
+                </h3>
+                <p
+                  data-en="I believe in continuous learning and embracing challenges as opportunities to grow. Every bug is a lesson, every project is a chance to improve."
+                  data-km="ខ្ញុំជឿជាក់លើការរៀនបន្ត និងការទទួលយកបញ្ហាប្រឈមជាឱកាសដើម្បីលូតលាស់។ កំហុសគ្រប់យ៉ាងគឺជាមេរៀន គម្រោងគ្រប់យ៉ាងគឺជាឱកាសដើម្បីកែលម្អ។"
+                >
+                  I believe in continuous learning and embracing challenges as
+                  opportunities to grow. Every bug is a lesson, every project is
+                  a chance to improve.
+                </p>
+                <div class="card-features">
+                  <span
+                    class="feature"
+                    data-en="Continuous Learning"
+                    data-km="ការរៀនបន្ត"
+                    >Continuous Learning</span
+                  >
+                  <span
+                    class="feature"
+                    data-en="Problem Solving"
+                    data-km="ការដោះស្រាយបញ្ហា"
+                    >Problem Solving</span
+                  >
+                  <span
+                    class="feature"
+                    data-en="Adaptability"
+                    data-km="ការសម្របខ្លួន"
+                    >Adaptability</span
+                  >
+                </div>
+              </div>
+
+              <div class="philosophy-card culture-card">
+                <div class="card-icon">
+                  <i class="fas fa-globe-asia"></i>
+                </div>
+                <h3 data-en="Cultural Bridge" data-km="ស្ពានវប្បធម៌">
+                  Cultural Bridge
+                </h3>
+                <p
+                  data-en="Technology should connect cultures, not divide them. I'm passionate about creating solutions that honor Khmer heritage while embracing global innovation."
+                  data-km="បច្ចេកវិទ្យាគួរតែភ្ជាប់វប្បធម៌ មិនមែនបែងចែកពួកគេទេ។ ខ្ញុំមានចំណង់ចំណូលចិត្តក្នុងការបង្កើតដំណោះស្រាយដែលគោរពបេតិកភណ្ឌខ្មែរ ខណៈពេលដែលទទួលយកនវានុវត្តន៍សកល។"
+                >
+                  Technology should connect cultures, not divide them. I'm
+                  passionate about creating solutions that honor Khmer heritage
+                  while embracing global innovation.
+                </p>
+                <div class="card-features">
+                  <span
+                    class="feature"
+                    data-en="Cultural Preservation"
+                    data-km="ការរក្សាវប្បធម៌"
+                    >Cultural Preservation</span
+                  >
+                  <span
+                    class="feature"
+                    data-en="Global Perspective"
+                    data-km="ទស្សនវិស័យសកល"
+                    >Global Perspective</span
+                  >
+                  <span
+                    class="feature"
+                    data-en="Inclusive Design"
+                    data-km="ការរចនារួមបញ្ចូល"
+                    >Inclusive Design</span
+                  >
+                </div>
+              </div>
+
+              <div class="philosophy-card impact-card">
+                <div class="card-icon">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <h3 data-en="Meaningful Impact" data-km="ផលប៉ះពាល់ដ៏មានន័យ">
+                  Meaningful Impact
+                </h3>
+                <p
+                  data-en="Code is not just about functionality—it's about creating positive change. I focus on building applications that solve real problems and improve people's lives."
+                  data-km="កូដមិនមែនគ្រាន់តែអំពីមុខងារទេ—វាអំពីការបង្កើតការផ្លាស់ប្តូរវិជ្ជមាន។ ខ្ញុំផ្តោតលើការបង្កើតកម្មវិធីដែលដោះស្រាយបញ្ហាពិតប្រាកដ និងកែលម្អជីវិតមនុស្ស។"
+                >
+                  Code is not just about functionality—it's about creating
+                  positive change. I focus on building applications that solve
+                  real problems and improve people's lives.
+                </p>
+                <div class="card-features">
+                  <span
+                    class="feature"
+                    data-en="User-Centered Design"
+                    data-km="ការរចនាផ្តោតលើអ្នកប្រើ"
+                    >User-Centered Design</span
+                  >
+                  <span
+                    class="feature"
+                    data-en="Social Impact"
+                    data-km="ផលប៉ះពាល់សង្គម"
+                    >Social Impact</span
+                  >
+                  <span
+                    class="feature"
+                    data-en="Ethical Development"
+                    data-km="ការអភិវឌ្ឍន៍ក្រមសីលធម៌"
+                    >Ethical Development</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="goals-section">
+              <h3
+                class="goals-title"
+                data-en="My Vision for the Future"
+                data-km="ចក្ខុវិស័យរបស់ខ្ញុំសម្រាប់អនាគត"
+              >
+                My Vision for the Future
+              </h3>
+              <div class="goals-grid">
+                <div class="goal-item">
+                  <div class="goal-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <h4
+                    data-en="Family Networking App"
+                    data-km="កម្មវិធីបណ្តាញគ្រួសារ"
+                  >
+                    Family Networking App
+                  </h4>
+                  <p
+                    data-en="Building a platform to strengthen family bonds in Khmer communities, helping relatives stay connected across distances and generations."
+                    data-km="បង្កើតវេទិកាមួយដើម្បីពង្រឹងចំណងគ្រួសារក្នុងសហគមន៍ខ្មែរ ជួយឱ្យសាច់ញាតិរក្សាការតភ្ជាប់គ្នាឆ្លងកាត់ចម្ងាយ និងជំនាន់។"
+                  >
+                    Building a platform to strengthen family bonds in Khmer
+                    communities, helping relatives stay connected across
+                    distances and generations.
+                  </p>
+                </div>
+
+                <div class="goal-item">
+                  <div class="goal-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h4
+                    data-en="Tech Education Initiative"
+                    data-km="គំនិតផ្តួចផ្តើមអប់រំបច្ចេកវិទ្យា"
+                  >
+                    Tech Education Initiative
+                  </h4>
+                  <p
+                    data-en="Creating accessible coding education resources for young Cambodians, bridging the digital divide and empowering the next generation."
+                    data-km="បង្កើតធនធានអប់រំការសរសេរកូដដែលអាចចូលប្រើបានសម្រាប់យុវជនកម្ពុជា ភ្ជាប់គម្លាតឌីជីថល និងផ្តល់អំណាចដល់ជំនាន់បន្ទាប់។"
+                  >
+                    Creating accessible coding education resources for young
+                    Cambodians, bridging the digital divide and empowering the
+                    next generation.
+                  </p>
+                </div>
+
+                <div class="goal-item">
+                  <div class="goal-icon">
+                    <i class="fas fa-language"></i>
+                  </div>
+                  <h4
+                    data-en="Khmer Language Tech"
+                    data-km="បច្ចេកវិទ្យាភាសាខ្មែរ"
+                  >
+                    Khmer Language Tech
+                  </h4>
+                  <p
+                    data-en="Developing tools and applications that better support the Khmer language in digital spaces, preserving our linguistic heritage."
+                    data-km="អភិវឌ្ឍឧបករណ៍ និងកម្មវិធីដែលគាំទ្រភាសាខ្មែរកាន់តែប្រសើរក្នុងលំហឌីជីថល ដោយរក្សាបេតិកភណ្ឌភាសារបស់យើង។"
+                  >
+                    Developing tools and applications that better support the
+                    Khmer language in digital spaces, preserving our linguistic
+                    heritage.
+                  </p>
+                </div>
+
+                <div class="goal-item">
+                  <div class="goal-icon">
+                    <i class="fas fa-rocket"></i>
+                  </div>
+                  <h4 data-en="Innovation Hub" data-km="មជ្ឈមណ្ឌលនវានុវត្តន៍">
+                    Innovation Hub
+                  </h4>
+                  <p
+                    data-en="Establishing a tech innovation center in Cambodia where local developers can collaborate, learn, and create solutions for regional challenges."
+                    data-km="បង្កើតមជ្ឈមណ្ឌលនវានុវត្តន៍បច្ចេកវិទ្យានៅកម្ពុជា ដែលអ្នកអភិវឌ្ឍន៍មូលដ្ឋានអាចសហការ រៀន និងបង្កើតដំណោះស្រាយសម្រាប់បញ្ហាប្រឈមក្នុងតំបន់។"
+                  >
+                    Establishing a tech innovation center in Cambodia where
+                    local developers can collaborate, learn, and create
+                    solutions for regional challenges.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="inspiration-quote">
+              <blockquote>
+                <p
+                  data-en='"Technology is best when it brings people together. My goal is to build bridges, not walls, through code."'
+                  data-km='"បច្ចេកវិទ្យាល្អបំផុតនៅពេលដែលវានាំមនុស្សមកជួបគ្នា។ គោលដៅរបស់ខ្ញុំគឺបង្កើតស្ពាន មិនមែនជញ្ជាំងតាមរយៈកូដ។"'
+                >
+                  "Technology is best when it brings people together. My goal is
+                  to build bridges, not walls, through code."
+                </p>
+                <cite>- CAMBO</cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Micro-Projects Spotlight -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Micro-Projects Spotlight"
+            data-km="គម្រោងតូចៗពិសេស"
+          >
+            Micro-Projects Spotlight
+          </h2>
+          <div class="projects-grid" id="projects-grid">
+            <!-- Interactive Color Palette Generator -->
+            <div
+              class="project-card interactive-project"
+              data-project="color-palette"
+            >
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-palette"></i>
+                </div>
+                <h3
+                  data-en="Color Palette Generator"
+                  data-km="ឧបករណ៍បង្កើតក្រុមពណ៌"
+                >
+                  Color Palette Generator
+                </h3>
+              </div>
+              <div class="project-demo">
+                <div class="color-palette" id="color-palette">
+                  <div
+                    class="color-swatch"
+                    style="background: #ff6b35"
+                    onclick="copyColor('#FF6B35')"
+                  ></div>
+                  <div
+                    class="color-swatch"
+                    style="background: #0066ff"
+                    onclick="copyColor('#0066FF')"
+                  ></div>
+                  <div
+                    class="color-swatch"
+                    style="background: #00d4ff"
+                    onclick="copyColor('#00D4FF')"
+                  ></div>
+                  <div
+                    class="color-swatch"
+                    style="background: #8b5cf6"
+                    onclick="copyColor('#8B5CF6')"
+                  ></div>
+                  <div
+                    class="color-swatch"
+                    style="background: #10b981"
+                    onclick="copyColor('#10B981')"
+                  ></div>
+                </div>
+                <button
+                  class="demo-btn"
+                  onclick="generateRandomPalette()"
+                  data-en="Generate New Palette"
+                  data-km="បង្កើតក្រុមពណ៌ថ្មី"
+                >
+                  <i class="fas fa-sync-alt"></i> Generate New Palette
+                </button>
+              </div>
+              <div class="project-description">
+                <p
+                  data-en="Interactive tool for generating beautiful color palettes. Click colors to copy hex codes!"
+                  data-km="ឧបករណ៍អន្តរកម្មសម្រាប់បង្កើតក្រុមពណ៌ស្រស់ស្អាត។ ចុចពណ៌ដើម្បីចម្លងកូដ hex!"
+                >
+                  Interactive tool for generating beautiful color palettes.
+                  Click colors to copy hex codes!
+                </p>
+              </div>
+            </div>
+
+            <!-- Interactive CSS Animation Showcase -->
+            <div
+              class="project-card interactive-project"
+              data-project="css-animations"
+            >
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-magic"></i>
+                </div>
+                <h3
+                  data-en="CSS Animation Showcase"
+                  data-km="ការបង្ហាញចលនា CSS"
+                >
+                  CSS Animation Showcase
+                </h3>
+              </div>
+              <div class="project-demo">
+                <div class="animation-demo">
+                  <div class="animated-element" id="animated-element">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="animation-controls">
+                  <button
+                    class="demo-btn"
+                    onclick="triggerAnimation('bounce')"
+                    data-en="Bounce"
+                    data-km="លោត"
+                  >
+                    Bounce
+                  </button>
+                  <button
+                    class="demo-btn"
+                    onclick="triggerAnimation('spin')"
+                    data-en="Spin"
+                    data-km="វិល"
+                  >
+                    Spin
+                  </button>
+                  <button
+                    class="demo-btn"
+                    onclick="triggerAnimation('pulse')"
+                    data-en="Pulse"
+                    data-km="ញ័រ"
+                  >
+                    Pulse
+                  </button>
+                </div>
+              </div>
+              <div class="project-description">
+                <p
+                  data-en="Explore different CSS animations and effects. Click buttons to see animations in action!"
+                  data-km="ស្វែងរកចលនា CSS និងបែបផែនផ្សេងៗ។ ចុចប៊ូតុងដើម្បីមើលចលនាកំពុងដំណើរការ!"
+                >
+                  Explore different CSS animations and effects. Click buttons to
+                  see animations in action!
+                </p>
+              </div>
+            </div>
+
+            <!-- Interactive Quiz App -->
+            <div
+              class="project-card interactive-project"
+              data-project="quiz-app"
+            >
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-question-circle"></i>
+                </div>
+                <h3
+                  data-en="Tech Knowledge Quiz"
+                  data-km="កម្រងសំណួរចំណេះដឹងបច្ចេកវិទ្យា"
+                >
+                  Tech Knowledge Quiz
+                </h3>
+              </div>
+              <div class="project-demo">
+                <div class="quiz-container" id="quiz-container">
+                  <div class="quiz-question" id="quiz-question">
+                    What does HTML stand for?
+                  </div>
+                  <div class="quiz-options">
+                    <button class="quiz-option" onclick="selectAnswer(0)">
+                      HyperText Markup Language
+                    </button>
+                    <button class="quiz-option" onclick="selectAnswer(1)">
+                      High Tech Modern Language
+                    </button>
+                    <button class="quiz-option" onclick="selectAnswer(2)">
+                      Home Tool Markup Language
+                    </button>
+                  </div>
+                  <div class="quiz-score">
+                    Score: <span id="quiz-score">0</span>/5
+                  </div>
+                </div>
+              </div>
+              <div class="project-description">
+                <p
+                  data-en="Test your web development knowledge with this interactive quiz!"
+                  data-km="សាកល្បងចំណេះដឹងអភិវឌ្ឍន៍គេហទំព័ររបស់អ្នកជាមួយកម្រងសំណួរអន្តរកម្មនេះ!"
+                >
+                  Test your web development knowledge with this interactive
+                  quiz!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Stack Infographic -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Tech Stack"
+            data-km="ជំនាញបច្ចេកវិទ្យា"
+          >
+            Tech Stack
+          </h2>
+          <div class="skills-infographic">
+            <!-- Skills visualization will be added -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog" class="blog-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Blog & Insights"
+            data-km="ប្លុក និងការយល់ដឹង"
+          >
+            Blog & Insights
+          </h2>
+          <div class="blog-content">
+            <!-- Blog posts will be added -->
+          </div>
+          <div class="collaborate-banner">
+            <h3 data-en="Let's Collaborate!" data-km="តោះសហការគ្នា!">
+              Let's Collaborate!
+            </h3>
+            <p
+              data-en="Ready to work together on something amazing?"
+              data-km="តើអ្នកត្រៀមរួចហើយដើម្បីធ្វើការជាមួយគ្នាលើអ្វីដែលអស្ចារ្យមួយទេ?"
+            >
+              Ready to work together on something amazing?
+            </p>
+            <button
+              class="btn btn-primary"
+              data-en="Get In Touch"
+              data-km="ទាក់ទងមកខ្ញុំ"
+            >
+              Get In Touch
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume Card -->
+      <section id="resume" class="resume-section">
+        <div class="container">
+          <div class="resume-card">
+            <!-- Resume content will be added -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-en="Get In Touch"
+            data-km="ទាក់ទងមកខ្ញុំ"
+          >
+            Get In Touch
+          </h2>
+          <div class="contact-content">
+            <!-- Contact form and info will be added -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Footer Main Content -->
+          <div class="footer-main">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <h3 class="logo-text">CAMBO</h3>
+                <p
+                  class="brand-tagline"
+                  data-en="Creative Developer & Cultural Bridge Builder"
+                  data-km="អ្នកអភិវឌ្ឍន៍ច្នៃប្រឌិត និងអ្នកបង្កើតស្ពានវប្បធម៌"
+                >
+                  Creative Developer & Cultural Bridge Builder
+                </p>
+              </div>
+              <p
+                class="footer-description"
+                data-en="Passionate about bridging technology and Khmer culture through innovative web development. Building solutions that connect communities and preserve heritage."
+                data-km="មានចំណង់ចំណូលចិត្តក្នុងការភ្ជាប់បច្ចេកវិទ្យា និងវប្បធម៌ខ្មែរតាមរយៈការអភិវឌ្ឍន៍គេហទំព័រប្រកបដោយភាពច្នៃប្រឌិត។ បង្កើតដំណោះស្រាយដែលភ្ជាប់សហគមន៍ និងរក្សាបេតិកភណ្ឌ។"
+              >
+                Passionate about bridging technology and Khmer culture through
+                innovative web development. Building solutions that connect
+                communities and preserve heritage.
+              </p>
+              <div class="footer-social">
+                <a
+                  href="https://github.com/cambo-dev"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://t.me/cambo_dev"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Telegram"
+                >
+                  <i class="fab fa-telegram"></i>
+                </a>
+                <a
+                  href="https://linkedin.com/in/cambo-dev"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="LinkedIn"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://twitter.com/cambo_dev"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Twitter"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  href="mailto:hello@cambo.dev"
+                  class="social-link"
+                  title="Email"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+              <h4
+                class="footer-title"
+                data-en="Quick Links"
+                data-km="តំណភ្ជាប់រហ័ស"
+              >
+                Quick Links
+              </h4>
+              <ul class="footer-links">
+                <li>
+                  <a
+                    href="#home"
+                    class="footer-link"
+                    data-en="Home"
+                    data-km="ទំព័រដើម"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#about"
+                    class="footer-link"
+                    data-en="About Me"
+                    data-km="អំពីខ្ញុំ"
+                    >About Me</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#skills"
+                    class="footer-link"
+                    data-en="Skills & Tools"
+                    data-km="ជំនាញ និងឧបករណ៍"
+                    >Skills & Tools</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#projects"
+                    class="footer-link"
+                    data-en="Projects"
+                    data-km="គម្រោង"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#education"
+                    class="footer-link"
+                    data-en="Learning Journey"
+                    data-km="ដំណើរសិក្សា"
+                    >Learning Journey</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    class="footer-link"
+                    data-en="Contact"
+                    data-km="ទំនាក់ទំនង"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-section">
+              <h4 class="footer-title" data-en="Services" data-km="សេវាកម្ម">
+                Services
+              </h4>
+              <ul class="footer-links">
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Web Development"
+                    data-km="ការអភិវឌ្ឍន៍គេហទំព័រ"
+                    >Web Development</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Frontend Design"
+                    data-km="ការរចនា Frontend"
+                    >Frontend Design</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Responsive Design"
+                    data-km="ការរចនាឆ្លើយតប"
+                    >Responsive Design</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="UI/UX Consulting"
+                    data-km="ការប្រឹក្សា UI/UX"
+                    >UI/UX Consulting</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Cultural Tech Solutions"
+                    data-km="ដំណោះស្រាយបច្ចេកវិទ្យាវប្បធម៌"
+                    >Cultural Tech Solutions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Mentoring"
+                    data-km="ការណែនាំ"
+                    >Mentoring</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-section">
+              <h4 class="footer-title" data-en="Resources" data-km="ធនធាន">
+                Resources
+              </h4>
+              <ul class="footer-links">
+                <li>
+                  <a
+                    href="#blog"
+                    class="footer-link"
+                    data-en="Blog & Insights"
+                    data-km="ប្លុក និងការយល់ដឹង"
+                    >Blog & Insights</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Code Snippets"
+                    data-km="កូដគំរូ"
+                    >Code Snippets</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Learning Resources"
+                    data-km="ធនធានសិក្សា"
+                    >Learning Resources</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Khmer Tech Guide"
+                    data-km="មគ្គុទ្ទេសក៍បច្ចេកវិទ្យាខ្មែរ"
+                    >Khmer Tech Guide</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Portfolio Templates"
+                    data-km="គំរូ Portfolio"
+                    >Portfolio Templates</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="footer-link"
+                    data-en="Open Source"
+                    data-km="កូដបើកចំហ"
+                    >Open Source</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+              <h4
+                class="footer-title"
+                data-en="Get In Touch"
+                data-km="ទាក់ទងមកខ្ញុំ"
+              >
+                Get In Touch
+              </h4>
+              <div class="footer-contact">
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <div class="contact-info">
+                    <span class="contact-label" data-en="Email" data-km="អ៊ីមែល"
+                      >Email</span
+                    >
+                    <a href="mailto:hello@cambo.dev" class="contact-value"
+                      >hello@cambo.dev</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <i class="fab fa-telegram"></i>
+                  <div class="contact-info">
+                    <span
+                      class="contact-label"
+                      data-en="Telegram"
+                      data-km="តេលេក្រាម"
+                      >Telegram</span
+                    >
+                    <a
+                      href="https://t.me/cambo_dev"
+                      class="contact-value"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >@cambo_dev</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="contact-info">
+                    <span
+                      class="contact-label"
+                      data-en="Location"
+                      data-km="ទីតាំង"
+                      >Location</span
+                    >
+                    <span
+                      class="contact-value"
+                      data-en="Phnom Penh, Cambodia"
+                      data-km="ភ្នំពេញ កម្ពុជា"
+                      >Phnom Penh, Cambodia</span
+                    >
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-clock"></i>
+                  <div class="contact-info">
+                    <span
+                      class="contact-label"
+                      data-en="Availability"
+                      data-km="ភាពអាចរកបាន"
+                      >Availability</span
+                    >
+                    <span
+                      class="contact-value"
+                      data-en="Open for opportunities"
+                      data-km="បើកចំហរសម្រាប់ឱកាស"
+                      >Open for opportunities</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Newsletter Subscription -->
+          <div class="footer-newsletter">
+            <div class="newsletter-content">
+              <h4
+                class="newsletter-title"
+                data-en="Stay Updated"
+                data-km="ទទួលបានព័ត៌មានថ្មី"
+              >
+                Stay Updated
+              </h4>
+              <p
+                class="newsletter-description"
+                data-en="Subscribe to get the latest updates on my projects, blog posts, and tech insights."
+                data-km="ជាវដើម្បីទទួលបានការអាប់ដេតចុងក្រោយអំពីគម្រោង ការសរសេរប្លុក និងការយល់ដឹងបច្ចេកវិទ្យារបស់ខ្ញុំ។"
+              >
+                Subscribe to get the latest updates on my projects, blog posts,
+                and tech insights.
+              </p>
+              <form class="newsletter-form" id="newsletter-form">
+                <div class="newsletter-input-group">
+                  <input
+                    type="email"
+                    class="newsletter-input"
+                    placeholder="Enter your email address"
+                    data-en-placeholder="Enter your email address"
+                    data-km-placeholder="បញ្ចូលអាសយដ្ឋានអ៊ីមែលរបស់អ្នក"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    class="newsletter-btn"
+                    data-en="Subscribe"
+                    data-km="ជាវ"
+                  >
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Subscribe</span>
+                  </button>
+                </div>
+                <p
+                  class="newsletter-privacy"
+                  data-en="No spam, unsubscribe anytime. Privacy policy applies."
+                  data-km="គ្មានសារឥតប្រយោជន៍ អាចលុបចេញពីការជាវបានគ្រប់ពេល។ គោលការណ៍ភាពឯកជនត្រូវបានអនុវត្ត។"
+                >
+                  No spam, unsubscribe anytime. Privacy policy applies.
+                </p>
+              </form>
+            </div>
+          </div>
+
+          <!-- Footer Bottom -->
+          <div class="footer-bottom">
+            <div class="footer-bottom-content">
+              <div class="footer-copyright">
+                <p>
+                  <span
+                    data-en="© 2024 CAMBO. Made with"
+                    data-km="© ២០២៤ CAMBO។ បង្កើតដោយ"
+                    >© 2024 CAMBO. Made with</span
+                  >
+                  <i class="fas fa-heart heart-icon"></i>
+                  <span data-en="and lots of" data-km="និង">and lots of</span>
+                  <i class="fas fa-coffee coffee-icon"></i>
+                  <span data-en="in Cambodia" data-km="នៅកម្ពុជា"
+                    >in Cambodia</span
+                  >
+                </p>
+              </div>
+              <div class="footer-legal">
+                <a
+                  href="#"
+                  class="legal-link"
+                  data-en="Privacy Policy"
+                  data-km="គោលការណ៍ភាពឯកជន"
+                  >Privacy Policy</a
+                >
+                <span class="legal-separator">•</span>
+                <a
+                  href="#"
+                  class="legal-link"
+                  data-en="Terms of Service"
+                  data-km="លក្ខខណ្ឌសេវាកម្ម"
+                  >Terms of Service</a
+                >
+                <span class="legal-separator">•</span>
+                <a
+                  href="#"
+                  class="legal-link"
+                  data-en="Sitemap"
+                  data-km="ផែនទីគេហទំព័រ"
+                  >Sitemap</a
+                >
+              </div>
+              <div class="footer-tech">
+                <span
+                  class="tech-label"
+                  data-en="Built with:"
+                  data-km="បង្កើតជាមួយ:"
+                  >Built with:</span
+                >
+                <div class="tech-stack">
+                  <span class="tech-item" title="HTML5">
+                    <i class="fab fa-html5"></i>
+                  </span>
+                  <span class="tech-item" title="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                  </span>
+                  <span class="tech-item" title="JavaScript">
+                    <i class="fab fa-js-square"></i>
+                  </span>
+                  <span class="tech-item" title="React">
+                    <i class="fab fa-react"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/education.js"></script>
+    <script src="js/microprojects.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/interactions.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/language.js"></script>
+
+    <!-- Global Function Bindings -->
+    <script>
+      // Make functions globally accessible for onclick handlers
+      window.showHighlightDetails = window.AboutSection.showHighlightDetails;
+      window.showJourneyStep = window.AboutSection.showJourneyStep;
+      window.animateStatCard = window.AboutSection.animateStatCard;
+      window.scrollToSection = window.AboutSection.scrollToSection;
+
+      // New interactive features
+      window.showInterestDetails = window.AboutSection.showInterestDetails;
+      window.animateRadar = window.AboutSection.animateRadar;
+      window.resetRadar = window.AboutSection.resetRadar;
+      window.showFact = window.AboutSection.showFact;
+      window.nextFact = window.AboutSection.nextFact;
+      window.previousFact = window.AboutSection.previousFact;
+      window.generateNewQuote = window.AboutSection.generateNewQuote;
+      window.shareQuote = window.AboutSection.shareQuote;
+    </script>
+  </body>
+</html>
