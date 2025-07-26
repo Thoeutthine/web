@@ -479,9 +479,30 @@ function closeTimelineModal() {
     const modal = document.querySelector('.timeline-modal');
     if (modal) {
         modal.classList.remove('active');
-        setTimeout(() => modal.remove(), 300);
+        setTimeout(() => {
+            if (modal && modal.parentNode) {
+                modal.parentNode.removeChild(modal);
+            }
+        }, 300);
     }
 }
+
+// Close modal when clicking outside or pressing Escape
+function handleModalClose(event) {
+    if (event.target.classList.contains('modal-overlay') ||
+        event.target.classList.contains('modal-close') ||
+        event.key === 'Escape') {
+        closeTimelineModal();
+    }
+}
+
+// Add global event listeners for modal closing
+document.addEventListener('keydown', handleModalClose);
+document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('modal-overlay')) {
+        closeTimelineModal();
+    }
+});
 
 // Export functions
 window.EducationTimeline = {
@@ -489,9 +510,28 @@ window.EducationTimeline = {
     closeTimelineModal
 };
 
+// Close any existing modals on page load
+function closeAllModals() {
+    const modals = document.querySelectorAll('.timeline-modal');
+    modals.forEach(modal => {
+        if (modal && modal.parentNode) {
+            modal.parentNode.removeChild(modal);
+        }
+    });
+}
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Close any existing modals first
+    closeAllModals();
+
+    // Then initialize the timeline
     initializeEducationTimeline();
+
+    // Add a small delay to ensure everything is loaded
+    setTimeout(() => {
+        closeAllModals();
+    }, 1000);
 });
 
 // Listen for language changes

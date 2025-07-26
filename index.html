@@ -1944,6 +1944,32 @@
     <script src="js/animations.js"></script>
     <script src="js/language.js"></script>
 
+    <!-- Emergency Modal Closer -->
+    <script>
+      // Immediately close any open modals
+      function emergencyCloseModals() {
+        const modals = document.querySelectorAll(
+          ".timeline-modal, .detail-modal, .modal-overlay"
+        );
+        modals.forEach((modal) => {
+          if (modal && modal.parentNode) {
+            modal.parentNode.removeChild(modal);
+          }
+        });
+      }
+
+      // Run immediately
+      emergencyCloseModals();
+
+      // Run after DOM is loaded
+      document.addEventListener("DOMContentLoaded", emergencyCloseModals);
+
+      // Run after a short delay
+      setTimeout(emergencyCloseModals, 500);
+      setTimeout(emergencyCloseModals, 1000);
+      setTimeout(emergencyCloseModals, 2000);
+    </script>
+
     <!-- Global Function Bindings -->
     <script>
       // Make functions globally accessible for onclick handlers
@@ -1961,6 +1987,9 @@
       window.previousFact = window.AboutSection.previousFact;
       window.generateNewQuote = window.AboutSection.generateNewQuote;
       window.shareQuote = window.AboutSection.shareQuote;
+
+      // Education timeline functions
+      window.closeTimelineModal = window.EducationTimeline.closeTimelineModal;
     </script>
   </body>
 </html>
